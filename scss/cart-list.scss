@@ -1,0 +1,20 @@
+.productSum {
+  font-weight: bold;
+}
+.totalSum {
+
+  margin-right: 5vw;
+}
+
+@media ( min-width: 961px) {
+  .sum {
+    float: right;
+  }
+  .productSum {
+    float: right;
+  }
+  .totalSum {
+    float: right;
+    font-size: 24px;
+  }
+}
