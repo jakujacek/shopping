@@ -15,7 +15,9 @@
 .unavailable{
   color: red;
 }
-
+textarea {
+  resize: none;
+}
 @media (min-width: 320px) {
   .name{
     font-size: 15px;

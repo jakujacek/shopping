@@ -1,6 +1,8 @@
 import React from 'react'
 import {Link, IndexLink} from 'react-router'
 import config from '../config.js'
+
+
 class Template extends React.Component {
 
   componentDidMount() {

@@ -6,6 +6,9 @@ import Main from './Components/Main.jsx';
 import Products from './Components/Products.jsx';
 import Product from './Components/Product.jsx';
 import Cart from './Components/Cart.jsx';
+import Orders from './Components/Orders.jsx'
+import Order from './Components/Order.jsx'
+import CartForm from "./Components/CartForm.jsx"
 require ('../scss/main.scss');
 document.addEventListener('DOMContentLoaded', function(){
 
@@ -17,8 +20,9 @@ ReactDOM.render (
           <Route path='/products' component={Products} />
           <Route path='/product/:id' component={Product} />
           <Route path='/cart/:id' component={Cart} />
-          {/*<Route path='/orders' component={Orders} />*/}
-          {/*<Route path='/order/:id' component={Order} />*/}
+          <Route path='/orders' component={Orders} />
+          <Route path='/order/:id' component={Order} />
+          <Route path='/cart/:id/form' component={CartForm} />
           {/*<Route path='/contact' component={Contact} />*/}
           {/*<Route path='*' component={NotFound} />*/}
     </Route>
